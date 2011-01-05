@@ -1,0 +1,9 @@
+dependencies:
+- libqjson-dev
+- kdelibs5-dev
+- bitcoind (duh!)
+
+cd build
+cmake ..
+sudo make install
+
